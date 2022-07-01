@@ -1,23 +1,11 @@
 # Hello Chat app
-It is hosted here: [Hello chat app](https://hello-chat-app.netlify.app/main) <br>
+It can be found here [Hello chat app](https://hello-chat-app.netlify.app) <br>
+<br>
+The entire chat app uses **Firebase** as the back-end.
+### Chat supports 
+- [x] End to end encryption
+- [x] Privacy protection using Login with Google
+- [x] Share messages on group 
+- [x] Add Unlimited people in groups
+- [x] Real-time chat using firestore DB
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
